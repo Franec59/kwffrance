@@ -22,12 +22,12 @@ body{
 }
 
 .bandeau_club{
-    background-image: url(../img/Bandeau-club2.png);
+    background-image: url(../img/Bandeau-club3.png);
     background-size:cover;
     background-repeat:no-repeat;
     box-sizing: content-box;
     width: 100%;
-    height: 7rem;
+    height: 3rem;
     border: 1px solid black;
     border-radius: 20px 20px 0px 0px;
     margin-left: -1px;
@@ -95,4 +95,67 @@ body{
     flex-direction: column;
     align-items: flex-start;
     border-top: 1px solid black;
+    margin-top: 0.5rem;
+}
+
+.planning{
+    width: 96%;
+    border-top: 1px solid black;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 3px;
+}
+
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+
+.groupe{
+    font-weight: bold;
+}
+
+.nom2{
+    margin-top: -1rem;
+    margin-left: 0.5rem;
+}
+
+.info_club_coti{
+    width: 96%;
+}
+
+.footer{
+    box-sizing: content-box;
+    width: 100%;
+    height: 4rem;
+    border: 1px solid black;
+    border-radius: 0px 0px 20px 20px;
+    margin-top: 2rem;
+    margin-left: -1px;
+    background-color: rgb(24, 23, 23);
+    text-align: center;
+}
+
+.logo_rs{
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.logo_info{
+    margin-top: 0.5rem;
+}
+
+.logo_info2{
+    margin-top: 0.5rem;
+    margin-left: 9rem;
+}
+
+.logo_info3{
+    margin-top: 0.5rem;
+    margin-left: 10.5rem;
 }
