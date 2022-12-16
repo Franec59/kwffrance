@@ -10,7 +10,7 @@ body{
 
 .fiche_club{
     min-height: 60rem;
-    width: 24rem;
+    width: 98%;
     border: 2px solid black;
     border-radius: 20px;
     background-color: white;
